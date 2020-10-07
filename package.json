@@ -1,0 +1,30 @@
+{
+  "name": "graphql-apollo-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junehay/GraphQL-apollo-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junehay/GraphQL-apollo-server/issues"
+  },
+  "homepage": "https://github.com/junehay/GraphQL-apollo-server#readme",
+  "dependencies": {
+    "apollo-server": "^2.18.2",
+    "apollo-server-express": "^2.18.2",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5"
+  }
+}
